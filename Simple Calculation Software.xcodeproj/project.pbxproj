@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		BA8D30BF245387B8005344C1 /* main.c in Sources */ = {isa = PBXBuildFile; fileRef = BA8D30BE245387B8005344C1 /* main.c */; };
+		BA8D30C7245398FB005344C1 /* Source.c in Sources */ = {isa = PBXBuildFile; fileRef = BA8D30C6245398FB005344C1 /* Source.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +26,8 @@
 /* Begin PBXFileReference section */
 		BA8D30BB245387B8005344C1 /* Simple Calculation Software */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "Simple Calculation Software"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BA8D30BE245387B8005344C1 /* main.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = main.c; sourceTree = "<group>"; };
+		BA8D30C5245398B2005344C1 /* Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Header.h; sourceTree = "<group>"; };
+		BA8D30C6245398FB005344C1 /* Source.c */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.c; path = Source.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +61,8 @@
 			isa = PBXGroup;
 			children = (
 				BA8D30BE245387B8005344C1 /* main.c */,
+				BA8D30C5245398B2005344C1 /* Header.h */,
+				BA8D30C6245398FB005344C1 /* Source.c */,
 			);
 			path = "Simple Calculation Software";
 			sourceTree = "<group>";
@@ -119,6 +124,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BA8D30C7245398FB005344C1 /* Source.c in Sources */,
 				BA8D30BF245387B8005344C1 /* main.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
