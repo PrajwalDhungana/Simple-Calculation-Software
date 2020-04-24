@@ -31,9 +31,9 @@ int mulFn(int first, int second)
     return mul;
 }
 
-int divFn(int first, int second)
+float divFn(int first, int second)
 {
-    int div;
+    float div;
     if (first > second)
     {
         div = first/second;

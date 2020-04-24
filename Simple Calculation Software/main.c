@@ -17,6 +17,7 @@ int main(int argc, const char * argv[]) {
     int second;
     int choice;
     int retValue;
+    float divReturn;
     
     //Asking for user input
     printf("Please enter the first number: ");
@@ -55,8 +56,8 @@ int main(int argc, const char * argv[]) {
                 break;
                 
             case 4:
-                retValue = divFn(first, second);
-                printf("%d divided by %d gives %d\n", first, second, retValue);
+                divReturn = divFn(first, second);
+                printf("%d divided by %d gives %.2f\n", first, second, divReturn);
                 break;
                 
             case 5:
