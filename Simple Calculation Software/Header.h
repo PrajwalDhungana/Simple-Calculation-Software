@@ -16,5 +16,7 @@ int addFn(int first, int second);
 int subFn(int first, int second);
 int mulFn(int first, int second);
 float divFn(int first, int second);
+int firstInput(void);
+int secondInput(void);
 
 #endif /* Header_h */

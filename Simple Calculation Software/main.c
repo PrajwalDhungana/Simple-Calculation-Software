@@ -19,51 +19,61 @@ int main(int argc, const char * argv[]) {
     int retValue;
     float divReturn;
     
-    //Asking for user input
-    printf("Please enter the first number: ");
-    scanf(" %d", &first);
-    
-    printf("Please enter the second number: ");
-    scanf(" %d", &second);
-    
     //Using while infinite loop
     while (1)
     {
         //Print user menu
+        printf("\n");
         printf("-----------------------------------------\n");
+        printf("Welcome to the simple calculator program.\n");
+        printf("-----------------------------------------\n");
+        printf("Please select any:\n");
         printf("1 - Addition\n");
         printf("2 - Subtraction\n");
         printf("3- Multiplication\n");
         printf("4 - Division\n");
         printf("5 - Exit the program\n");
         printf("-----------------------------------------\n");
+        printf("Your choice: ");
         scanf(" %d", &choice);
+        printf("\n");
         
         switch (choice) {
             case 1:
+                first = firstInput();
+                second = secondInput();
                 retValue = addFn(first, second);
+                printf("\n");
                 printf("The sum of %d and %d is %d\n", first, second, retValue);
                 break;
                 
             case 2:
+                first = firstInput();
+                second = secondInput();
                 retValue = subFn(first, second);
+                printf("\n");
                 printf("The difference of %d and %d is %d\n", first, second, retValue);
                 break;
                 
             case 3:
+                first = firstInput();
+                second = secondInput();
                 retValue = mulFn(first, second);
+                printf("\n");
                 printf("The product of %d and %d is %d", first, second, retValue);
                 break;
                 
             case 4:
+                first = firstInput();
+                second = secondInput();
                 divReturn = divFn(first, second);
+                printf("\n");
                 printf("%d divided by %d gives %.2f\n", first, second, divReturn);
                 break;
                 
             case 5:
                 printf("Thanks for using the program.\n");
-                printf("Program exiting\n");
-                printf("Program exited\n");
+                printf("Program closed\n");
                 return EXIT_SUCCESS;
                 
             default:

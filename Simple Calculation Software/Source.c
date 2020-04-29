@@ -10,6 +10,22 @@
 #include <stdlib.h>
 #include "Header.h"
 
+int firstInput(void)
+{
+    int first;
+    printf("Please enter the first number: ");
+    scanf(" %d", &first);
+    return first;
+}
+
+int secondInput(void)
+{
+    int second;
+    printf("Please enter the second number: ");
+    scanf(" %d", &second);
+    return second;
+}
+
 int addFn(int first, int second)
 {
     int sum;
