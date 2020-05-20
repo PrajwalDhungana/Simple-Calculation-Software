@@ -83,6 +83,7 @@ int main(int argc, const char * argv[]) {
         }
         
     }
+    //end of while infinite loop
     return 0;
 }
 
